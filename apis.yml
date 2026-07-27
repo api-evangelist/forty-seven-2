@@ -1,8 +1,26 @@
 aid: forty-seven-2
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forty-seven-2.png
 name: Forty Seven 2
-description: Forty Seven 2 is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Forty Seven, Inc. was a clinical-stage immuno-oncology biopharmaceutical company
+  developing therapies that target cancer immune-evasion pathways, based on technology licensed
+  from Stanford University. Its lead program, magrolimab, was a monoclonal antibody against the
+  CD47 "don't eat me" signal, evaluated in myelodysplastic syndrome, acute myeloid leukemia,
+  non-Hodgkin lymphoma, and solid tumors. Seeded by Lightspeed Venture Partners in 2015, the
+  company completed an IPO in 2018 and was acquired by Gilead Sciences in 2020 for approximately
+  $4.9 billion, becoming a wholly-owned Gilead subsidiary. As a therapeutics developer it exposes
+  no public developer platform, API, or SDK surface; its former site (fortyseveninc.com) now
+  redirects to gilead.com.
 url: https://raw.githubusercontent.com/api-evangelist/forty-seven-2/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,33 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: Acquired by Gilead Sciences in 2020 (~$4.9B); biopharma therapeutics developer with
+  no public API/developer surface. The "2" suffix is a portfolio-scraper dedup artifact.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biopharmaceutical
+- Immuno-Oncology
+- Healthcare
+- Clinical-Stage
+- Acquired
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://www.gilead.com/
+- type: CrunchBase
+  url: https://www.crunchbase.com/organization/forty-seven-inc
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
