@@ -31,7 +31,7 @@ x-tier-reason: portfolio-lead
 x-status: acquired
 x-status-note: Acquired by Gilead Sciences in 2020 (~$4.9B); biopharma therapeutics developer with
   no public API/developer surface. The "2" suffix is a portfolio-scraper dedup artifact.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
