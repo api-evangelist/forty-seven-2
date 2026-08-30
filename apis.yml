@@ -50,7 +50,7 @@ tags:
 - Biopharmaceutical
 - Immuno-Oncology
 - Healthcare
-- Clinical Stage
+- Clinical-Stage
 - Acquired
 - Life Sciences
 tags_raw:
@@ -63,6 +63,11 @@ tags_raw:
 - Life Sciences
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/gilead-sciences/
+  name: Gilead Sciences
+  x-relationship: acquired
+  x-evidence: "Seeded by Lightspeed Venture Partners in 2015, the company completed an IPO in 2018 and was acquired by Gilead Sciences in 2020 for approximately $4."
 - type: Website
   url: https://www.gilead.com/
 - type: CrunchBase
